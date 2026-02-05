@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     # DeepSeek API 配置
     DEEPSEEK_API_KEY: Optional[str] = None
     DEEPSEEK_API_URL: str = "https://api.deepseek.com/v1/chat/completions"
-    DEEPSEEK_MODEL: str = "deepseek-chat"
+    DEEPSEEK_MODEL: str = "deepseek-chat"  # can be changed to deepseek-reasoner
     
     # ECharts 配置
     ECHARTS_VERSION: str = "5.4.3"
